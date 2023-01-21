@@ -26,13 +26,17 @@ time, mark, audio, video {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: #2D4855;
 }
 
-.timeline {
+.up {
     width: 11.25vw;
     height: 8.04vw;
+    padding-bottom: 7.5vw;
 }
 
-.container {
-    
+.down {
+    width: 11.25vw;
+    height: 8.04vw;
+    padding-top: 7.5vw;
 }
