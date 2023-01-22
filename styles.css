@@ -19,8 +19,13 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+@font-face {
+    font-family: myFont;
+    src: url("Niconne-Regular.ttf");
+}
+
 .main {
-    display: flex;;
+    display: flex;
     height: 100vh;
     width: 100vw;
     justify-content: center;
@@ -39,4 +44,85 @@ time, mark, audio, video {
     width: 11.25vw;
     height: 8.04vw;
     padding-top: 7.5vw;
+    position: relative;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.xclass {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 5vh;
+    padding-right: 5vh;
+}
+
+.year {
+    font-size: 108px;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.text {
+    font-size: 48px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+}
+
+.top {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    position: relative;
+}
+
+.bottom {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.leftimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 10vw;
+    padding-top: 10vh;
+}
+
+.rightimg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 20vw;
+    padding-top: 10vh;
+}
+
+.over {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.under {
+    flex: 2;
+}
+
+#title {
+    font-family: myFont;
+    font-size: 128px;
+    font-weight: bold;
+    color: #dd3311;
 }
