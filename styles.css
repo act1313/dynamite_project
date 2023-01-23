@@ -47,21 +47,6 @@ time, mark, audio, video {
     position: relative;
 }
 
-.home {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
-}
-
-.xclass {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding-top: 5vh;
-    padding-right: 5vh;
-}
-
 .year {
     font-size: 108px;
     font-weight: bold;
@@ -80,31 +65,20 @@ time, mark, audio, video {
 
 .top {
     display: flex;
-    flex: 1;
     justify-content: space-between;
-    position: relative;
+    height: 40vh;
+    width: 90vw;
+    background-color: #2D4855;
+    padding-right: 5vw;
+    padding-left: 5vw;
 }
 
 .bottom {
     display: flex;
-    flex: 1;
     flex-direction: column;
-}
-
-.leftimg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 10vw;
-    padding-top: 10vh;
-}
-
-.rightimg {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding-right: 20vw;
-    padding-top: 10vh;
+    height: 60vh;
+    width: 100vw;
+    background-color: #2D4855;
 }
 
 .over {
@@ -125,4 +99,20 @@ time, mark, audio, video {
     font-size: 128px;
     font-weight: bold;
     color: #dd3311;
+}
+
+.rightimg {
+    height: 30vh;
+    width: auto;
+    padding-top: 5vh;
+}
+
+.leftimg {
+    height: 30vh;
+    width: auto;
+    padding-top: 5vh;
+}
+
+.xclass {
+    padding-top: 5vh;
 }
