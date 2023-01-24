@@ -48,7 +48,7 @@ time, mark, audio, video {
 }
 
 .year {
-    font-size: 10rem;
+    font-size: 10em;
     font-weight: bold;
     align-items: center;
     display: flex;
@@ -57,7 +57,7 @@ time, mark, audio, video {
 }
 
 .text {
-    font-size: 5rem;
+    font-size: 5em;
     padding-left: 10vw;
     padding-right: 10vw;
     text-align: center;
