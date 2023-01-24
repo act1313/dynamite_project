@@ -116,3 +116,13 @@ time, mark, audio, video {
 .xclass {
     padding-top: 5vh;
 }
+
+@media (max-width: 1080px) {
+    .year {
+        font-size: 48px;
+    }
+    
+    .text {
+        font-size: 24px;
+    }
+}
